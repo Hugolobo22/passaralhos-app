@@ -4,7 +4,7 @@ import { tokenManager } from "../auth/tokenManager";
 // Em desenvolvimento, use o IP da sua máquina na rede local (não localhost)
 // para que o emulador/device físico consiga acessar a API
 const BASE_URL = __DEV__
-  ? "http://127.0.0.1:8000/api/v1" // Android Emulator → localhost da máquina
+  ? "http://192.168.137.1:8000/api/v1" // Android Emulator → localhost da máquina
   : "https://api.passaralhos.app/api/v1";
 
 const apiClient: AxiosInstance = axios.create({
