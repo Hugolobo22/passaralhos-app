@@ -160,7 +160,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish }) => {
       {/* Splash inicial – texto perfeitamente centralizado */}
       {!showOnboarding && (
         <Animated.View style={[styles.splashContainer, { opacity: splashOpacity }]}>
-          <Text style={styles.logo}>Passaralhos</Text>
+          <Text style={styles.logo}>PIU</Text>
           <Text style={styles.tagline}>GUIA DE CAMPO DIGITAL</Text>
           <Text style={styles.subtitle}>Ouça a natureza. Descubra o mundo.</Text>
           <View style={styles.aiBadge}>

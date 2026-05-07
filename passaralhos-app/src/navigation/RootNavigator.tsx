@@ -1,45 +1,17 @@
 import React, { useEffect } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { View, ActivityIndicator, StyleSheet } from "react-native";
+import { View, ActivityIndicator, StyleSheet, Text } from "react-native";
 
 import { useAuthStore } from "../store/authStore";
 import AuthNavigator from "./AuthNavigator";
-
-// Placeholder para as tabs — será substituído pelo BottomTabsNavigator
-import { Text } from "react-native";
-const AppPlaceholder = () => (
-  <View
-    style={{
-      flex: 1,
-      justifyContent: "center",
-      alignItems: "center",
-      backgroundColor: "#F5F0E8",
-    }}
-  >
-    <Text style={{ fontSize: 40 }}>🐦</Text>
-    <Text
-      style={{
-        fontWeight: "700",
-        color: "#1A4D2E",
-        marginTop: 12,
-        fontSize: 18,
-      }}
-    >
-      App carregado com sucesso!
-    </Text>
-    <Text style={{ color: "#5A6E58", marginTop: 4 }}>
-      Bottom Tabs serão implementados na próxima etapa.
-    </Text>
-  </View>
-);
+import BottomTabsNavigator from "./BottomTabsNavigator";
 
 const Root = createNativeStackNavigator();
 
 export default function RootNavigator() {
   const { isAuthenticated, isLoading, restoreSession } = useAuthStore();
 
-  // Ao abrir o app, tenta restaurar a sessão a partir dos tokens salvos
   useEffect(() => {
     restoreSession();
   }, []);
@@ -61,7 +33,7 @@ export default function RootNavigator() {
     <NavigationContainer>
       <Root.Navigator screenOptions={{ headerShown: false, animation: "fade" }}>
         {isAuthenticated ? (
-          <Root.Screen name="App" component={AppPlaceholder} />
+          <Root.Screen name="App" component={BottomTabsNavigator} />
         ) : (
           <Root.Screen name="Auth" component={AuthNavigator} />
         )}
@@ -77,5 +49,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  splashEmoji: { fontSize: 64 },
+  splashEmoji: {
+    fontSize: 64,
+  },
 });

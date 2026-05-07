@@ -11,13 +11,13 @@ Backend do protótipo — FastAPI + SQLite. Sem Docker, sem banco externo.
 python -m venv venv
 
 # 2. Ativar (Windows)
-venv\Scripts\activate
+source venv/Scripts/activate
 
 # 3. Instalar dependências
 pip install -r requirements.txt
 
 # 4. Subir o servidor
-uvicorn app.main:app --reload
+python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000 #(lembre de alterar o ip em client.ts (front) pelo ip da máquina)
 ```
 
 O arquivo `passaralhos.db` (SQLite) é criado automaticamente na primeira execução.

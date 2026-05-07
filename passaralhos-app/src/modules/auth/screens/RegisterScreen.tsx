@@ -240,7 +240,7 @@ export default function RegisterScreen() {
             <View style={st.logoBox}>
               <Text style={st.logoEmoji}>📖</Text>
             </View>
-            <Text style={st.appName}>Passaralhos</Text>
+            <Text style={st.appName}>PIU</Text>
             <Text style={st.appSub}>DIGITAL FIELD GUIDE</Text>
             <View style={st.titleDivider} />
             <Text style={st.tagline}>Comece sua coleção de aves</Text>

@@ -1,0 +1,221 @@
+{
+  "users": [
+    {
+      "id": "76235eea-6fb9-4794-b9b1-13da2ef41af9",
+      "name": "Hugo",
+      "email": "hugo@email.com",
+      "password_hash": "$2b$12$jL6DmVeH3GvSwSERbsjJCujH70DxdWIb5Q.ZYeSPFz/iXDGBT1hPa",
+      "xp": 1180,
+      "level": 2,
+      "is_active": true,
+      "created_at": "2026-05-06T19:35:27.852532+00:00",
+      "username": "",
+      "bio": "Pokemon",
+      "location": "Localização não informada",
+      "updated_at": "2026-05-07T02:20:51.340942+00:00",
+      "bird_records": [
+        {
+          "id": "ef88546c-43a3-4e27-9e5a-8963bc139059",
+          "common_name": "Gavião-carijó",
+          "scientific_name": "Rupornis magnirostris",
+          "confidence": 92.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:30:40.862288+00:00"
+        },
+        {
+          "id": "a5b059f1-982c-4740-b6a1-030cd151346b",
+          "common_name": "Bem-te-vi",
+          "scientific_name": "Pitangus sulphuratus",
+          "confidence": 94.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:48:57.915498+00:00"
+        },
+        {
+          "id": "2bc76905-5d74-46c1-887e-fa1c69824fa0",
+          "common_name": "Canário-da-terra",
+          "scientific_name": "Sicalis flaveola",
+          "confidence": 88.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:49:37.109521+00:00"
+        },
+        {
+          "id": "6893169c-792b-4a5d-a61d-481c9f9b7912",
+          "common_name": "Coruja-buraqueira",
+          "scientific_name": "Athene cunicularia",
+          "confidence": 86.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:51:43.943252+00:00"
+        },
+        {
+          "id": "415d00f3-cc7e-422b-b813-6da1c6cd2969",
+          "common_name": "Sabiá-laranjeira",
+          "scientific_name": "Turdus rufiventris",
+          "confidence": 91.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:51:53.883795+00:00"
+        },
+        {
+          "id": "43a471d6-3775-4828-bea6-db91cb70de71",
+          "common_name": "Bem-te-vi",
+          "scientific_name": "Pitangus sulphuratus",
+          "confidence": 94.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:06.602591+00:00"
+        },
+        {
+          "id": "696ef1eb-56bc-4641-98da-5f11bf8ac61d",
+          "common_name": "Coruja-buraqueira",
+          "scientific_name": "Athene cunicularia",
+          "confidence": 86.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:17.669664+00:00"
+        },
+        {
+          "id": "6fe7fa3e-1608-44a1-990b-50947ad80611",
+          "common_name": "Coruja-buraqueira",
+          "scientific_name": "Athene cunicularia",
+          "confidence": 86.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:20.651774+00:00"
+        },
+        {
+          "id": "626f2598-ac94-4a9e-9ab5-ae51732320e2",
+          "common_name": "Bem-te-vi",
+          "scientific_name": "Pitangus sulphuratus",
+          "confidence": 94.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:22.202338+00:00"
+        },
+        {
+          "id": "d8d714b1-cee1-487b-8ac8-ed7493715ec9",
+          "common_name": "Canário-da-terra",
+          "scientific_name": "Sicalis flaveola",
+          "confidence": 88.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:23.384822+00:00"
+        },
+        {
+          "id": "027847d3-267b-473d-af09-41ede4a5b601",
+          "common_name": "Coruja-buraqueira",
+          "scientific_name": "Athene cunicularia",
+          "confidence": 86.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:24.583186+00:00"
+        },
+        {
+          "id": "be9a8dd3-2884-4128-85e6-ada5b6f4907b",
+          "common_name": "Bem-te-vi",
+          "scientific_name": "Pitangus sulphuratus",
+          "confidence": 94.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:26.169863+00:00"
+        },
+        {
+          "id": "2046cf17-2ed3-4216-94e4-b500ef9fd07c",
+          "common_name": "Sabiá-laranjeira",
+          "scientific_name": "Turdus rufiventris",
+          "confidence": 91.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:27.392155+00:00"
+        },
+        {
+          "id": "65e65cca-1ad1-4868-a570-9495e8db5cb7",
+          "common_name": "Sabiá-laranjeira",
+          "scientific_name": "Turdus rufiventris",
+          "confidence": 91.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:33.505181+00:00"
+        },
+        {
+          "id": "9492cecc-9cb1-4c4d-9c72-34e30867dd2d",
+          "common_name": "Sabiá-laranjeira",
+          "scientific_name": "Turdus rufiventris",
+          "confidence": 91.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:35.524228+00:00"
+        },
+        {
+          "id": "8163eadd-7a7f-4fb5-b793-a124be18889d",
+          "common_name": "Gavião-carijó",
+          "scientific_name": "Rupornis magnirostris",
+          "confidence": 92.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:36.763509+00:00"
+        },
+        {
+          "id": "3294ee03-ae23-4c48-8c24-3308afeb275a",
+          "common_name": "Gavião-carijó",
+          "scientific_name": "Rupornis magnirostris",
+          "confidence": 92.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:37.948710+00:00"
+        },
+        {
+          "id": "f06828bc-0b09-443a-a1a8-2d1a1fa98378",
+          "common_name": "Bem-te-vi",
+          "scientific_name": "Pitangus sulphuratus",
+          "confidence": 94.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T21:52:40.387835+00:00"
+        },
+        {
+          "id": "e30e709d-2a07-4357-9f81-e6fc7da57211",
+          "common_name": "Bem-te-vi",
+          "scientific_name": "Pitangus sulphuratus",
+          "confidence": 94.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T22:23:19.886966+00:00"
+        },
+        {
+          "id": "38b0449c-5304-4067-aebf-7bc70ef959e1",
+          "common_name": "Bem-te-vi",
+          "scientific_name": "Pitangus sulphuratus",
+          "confidence": 94.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-06T22:23:52.874884+00:00"
+        },
+        {
+          "id": "bb903770-3f3f-4bc5-88ee-25e55501a29a",
+          "common_name": "Gavião-carijó",
+          "scientific_name": "Rupornis magnirostris",
+          "confidence": 92.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-07T02:20:46.189612+00:00"
+        },
+        {
+          "id": "85d1e1b2-c108-4ed1-823b-9155099d3f44",
+          "common_name": "Sabiá-laranjeira",
+          "scientific_name": "Turdus rufiventris",
+          "confidence": 91.0,
+          "audio_url": null,
+          "location": "Natal, Brasil",
+          "created_at": "2026-05-07T02:20:51.340942+00:00"
+        }
+      ],
+      "recordings_count": 22,
+      "species_count": 5,
+      "deleted_at": "2026-05-06T21:58:27.672500+00:00"
+    }
+  ]
+}

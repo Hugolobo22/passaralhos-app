@@ -165,7 +165,7 @@ export default function LoginScreen() {
               <Text style={st.logoEmoji}>📖</Text>
             </View>
 
-            <Text style={st.appName}>Passaralhos</Text>
+            <Text style={st.appName}>PIU</Text>
             <Text style={st.appSub}>DIGITAL FIELD GUIDE</Text>
 
             <View style={st.titleDivider} />
