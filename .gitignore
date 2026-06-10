@@ -1,0 +1,43 @@
+# ── Python ────────────────────────────────────────────────────
+**/__pycache__/
+**/*.pyc
+**/venv*/
+venv*/
+**/.env
+**/passaralhos.db
+**/*.db
+
+# ── Dataset de treinamento (arquivos grandes) ─────────────────
+**/wavfiles/
+
+# ── Node / Expo ───────────────────────────────────────────────
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+*.tsbuildinfo
+
+# ── Native ────────────────────────────────────────────────────
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+/Piu-app/ios
+/Piu-app/android
+
+# ── Debug ─────────────────────────────────────────────────────
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ── Env locais ────────────────────────────────────────────────
+.env*.local
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+*.pem
